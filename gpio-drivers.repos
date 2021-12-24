@@ -1,0 +1,16 @@
+repositories:
+  # imu
+  imu/mpu6050-driver:
+    type: git
+    url: git@github.com:1222-takeshi/ros2-mpu6050-driver.git
+    version: main
+  # vendor
+  vendor/imu-tools:
+    type: git
+    url: git@github.com:1222-takeshi/imu_tools.git
+    version: develop/mpu6050
+  vendor/WiringPi:
+    type: git
+    url: git@github.com:WiringPi/WiringPi.git
+    version: master
+  
